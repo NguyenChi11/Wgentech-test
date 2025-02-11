@@ -40,10 +40,28 @@
     },
     "orangy_banner_title_L7b8tB": {
       "type": "orangy-banner-title",
+      "blocks": {
+        "text_inspiration_dKmrVC": {
+          "type": "text_inspiration",
+          "settings": {
+            "orangy_inspiration_image": "shopify://shop_images/anh3.png"
+          }
+        },
+        "text_inspiration_QBDWUY": {
+          "type": "text_inspiration",
+          "settings": {
+            "orangy_inspiration_image": "shopify://shop_images/anh2.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_inspiration_dKmrVC",
+        "text_inspiration_QBDWUY"
+      ],
       "settings": {
-        "title": "Lorem ullamco",
-        "inspiration_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur eiusmod consectetur proident Lorem reprehenderit esse do anim velit in aliquip dolore ut officia. Consectetur reprehenderit proident do exercitation eu. Sunt fugiat pariatur elit est laboris quis. Esse mollit incididunt quis amet. Qui non irure incididunt laborum nisi cillum consequat aliquip aliquip cillum in. Ut excepteur labore voluptate tempor cupidatat dolor eiusmod do ipsum Lorem cupidatat do labore.Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.",
-        "padding_top": 28,
+        "title": "Lorem ullamco đsd",
+        "inspiration_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur eiusmod consectetur proident Lorem reprehenderit esse do anim velit in aliquip dolore ut officia. Consectetur reprehenderit proident do exercitation eu. Sunt fugiat pariatur elit est laboris quis. Esse mollit incididunt quis amet. Qui non irure incididunt laborum nisi cillum consequat aliquip aliquip cillum in. Ut excepteur labore voluptate tempor cupidatat dolor eiusmod do ipsum Lorem cupidatat do labore.Proident dđdolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.",
+        "padding_top": 60,
         "padding_bottom": 24
       }
     },
@@ -112,7 +130,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
