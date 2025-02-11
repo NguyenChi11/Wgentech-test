@@ -37,6 +37,7 @@
     },
     "header": {
       "type": "header",
+      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -53,10 +54,20 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "orangy_header_KpQwTH": {
+      "type": "orangy-header",
+      "settings": {
+        "orangy_banner_image": "shopify://shop_images/anh1.jpg",
+        "title": "FREE SHIPPING · COUPON: FREE. Exchanges and returns within 30 days.",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "orangy_header_KpQwTH"
   ]
 }
