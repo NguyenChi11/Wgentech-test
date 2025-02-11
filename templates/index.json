@@ -122,12 +122,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "orangy_paragraph_xEnzkz": {
+      "type": "orangy-paragraph",
+      "settings": {
+        "title": "Aute duis sunt aliqua enim enim Lorem reprehenderit proident aliquip voluptate aliqua. Eiusmod labore officia minim laborum nostrud cupidatat.",
+        "text": "Nisi culpa voluptate eiusmod ullamco aliquip tempor elit sunt irure in excepteur dolore. Do eu eu officia voluptate veniam consequat veniam adipisicing dolor incididunt deserunt eiusmod amet. Sint veniam officia qui id consequat Lorem non consectetur commodo anim eiusmod nisi ipsum ut. Aliqua in dolore esse reprehenderit Lorem",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "orangy_product_83zJfa": {
+      "type": "orangy-product",
+      "settings": {
+        "orangy_product_image": "shopify://shop_images/anh6.png",
+        "collection": "frontpage"
+      }
     }
   },
   "order": [
     "featured_collection",
     "orangy_banner_title_L7b8tB",
     "orangy_multirow_6EKERF",
-    "orangy_multirow_YVH4MU"
+    "orangy_multirow_YVH4MU",
+    "orangy_paragraph_xEnzkz",
+    "orangy_product_83zJfa"
   ]
 }
