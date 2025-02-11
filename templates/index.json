@@ -151,9 +151,9 @@
     "orangy_paragraph_xEnzkz": {
       "type": "orangy-paragraph",
       "settings": {
-        "title": "Aute duis sunt aliqua enim enim Lorem reprehenderit proident aliquip voluptate aliqua. Eiusmod labore officia minim laborum nostrud cupidatat.",
-        "text": "Nisi culpa voluptate eiusmod ullamco aliquip tempor elit sunt irure in excepteur dolore. Do eu eu officia voluptate veniam consequat veniam adipisicing dolor incididunt deserunt eiusmod amet. Sint veniam officia qui id consequat Lorem non consectetur commodo anim eiusmod nisi ipsum ut. Aliqua in dolore esse reprehenderit Lorem",
-        "padding_top": 24,
+        "title": "Aute duis sunt aliqua enim enim Lorem reprehenderit proident aliquip voluptate aliqua. Eiusmod labore officia minim laborum nostrud cupidatat.âsa",
+        "text": "Nisi culpa voluptate eiusmod ullamco aliquip tempor elit sunt irure in excepteur dolore. Do eu eu officia voluptate veniam consequat veniam adipisicing dolor incididunt deserunt eiusmod amet. Sint veniam officia qui id consequat Lorem non consectetur commodo anim eiusmod nisi ipsum ut. Aliqua in dolore esse reprehenderit Lorem áaa",
+        "padding_top": 32,
         "padding_bottom": 24
       }
     },
