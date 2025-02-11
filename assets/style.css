@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.background-example {
+  height: 883px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.background-example .header-banner-orangy .banner-orangy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 12px;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 0 32px;
+}
+.background-example .header-banner-orangy .banner-orangy-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 20px;
+  gap: 10px;
+}
+.background-example .header-banner-orangy .banner-orangy-right div {
+  text-align: center;
+}
+.background-example .header-banner-orangy .banner-orangy-right .timer-box {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 20px;
+}
+.background-example .header-banner-orangy .banner-orangy-right .label {
+  font-size: 12px;
+}
+.background-example .menu {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 400;
+  size: 14px;
+  line-height: 22px;
+}
+.background-example .menu-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.background-example .menu-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.background-example .menu-between {
+  font-weight: 800;
+  font-size: larger;
+}
+.background-example .text {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 0;
+}
+.background-example .text p {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 74px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */

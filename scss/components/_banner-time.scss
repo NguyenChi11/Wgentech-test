@@ -1,0 +1,85 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.background-example {
+  height: 883px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  .header-banner-orangy {
+    .banner-orangy {
+      @include space-between;
+      border-radius: 8px;
+      padding-top: 4px;
+      padding-left: 12px;
+      background-color: $color-black;
+      color: $color-white;
+      border-radius: 10px;
+      margin: 0 32px;
+      &-right {
+        @include space-between;
+        margin-right: 20px;
+        gap: 10px;
+        div {
+          text-align: center;
+        }
+        .timer-box {
+          display: block;
+          font-size: 14px;
+          color: #ccc;
+          line-height: 20px;
+        }
+        .label {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .menu {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    @include space-between;
+    color: #ffffff;
+    font-weight: 400;
+    size: 14px;
+    line-height: 22px;
+  }
+  .menu-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .menu-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .menu-between {
+    font-weight: 800;
+    font-size: larger;
+  }
+
+  .text {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0;
+  }
+
+  .text p {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    color: #ffffff;
+  }
+}
