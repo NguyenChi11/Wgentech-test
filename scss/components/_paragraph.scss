@@ -1,0 +1,24 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.paragraph-wrapper {
+  margin: 0 36px;
+}
+.orangy-title-paragraph {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  width: 524px;
+  margin-bottom: 16px;
+}
+
+.orangy-text-paragraph {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  width: 1267px;
+}

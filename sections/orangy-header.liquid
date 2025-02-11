@@ -1,0 +1,106 @@
+{{ 'style.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<header class="background-example" style="background-image: url({{ section.settings.orangy_banner_image | image_url: width: 1440    }})" >
+    <div class="section-{{ section.id }}-padding header-banner-orangy">
+    <div class="banner-orangy">
+        <div class="banner-orangy-left">
+            {{ section.settings.title }}
+        </div>
+        <div class="banner-orangy-right">
+          <div>
+            <span class="timer-box" id="days">00</span
+            ><span class="label">days</span>
+          </div>
+          <div>
+            <span class="timer-box" id="hours">00</span
+            ><span class="label">hours</span>
+          </div>
+          <div>
+            <span class="timer-box" id="minutes">00</span
+            ><span class="label">min</span>
+          </div>
+          <div>
+            <span class="timer-box" id="seconds">00</span
+            ><span class="label">sec</span>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- phần menu -->
+     <div class="menu">
+        <div class="menu-right">
+          <i class="fa-solid fa-bars"></i>
+          <p>MENU</p>
+        </div>
+        <div class="menu-between"><p>Orangy</p></div>
+        <div class="menu-left">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <p>SEARCH</p>
+          <p>LOGIN</p>
+          <p>BAG</p>
+          <p>(0)</p>
+        </div>
+      </div>
+      <div class="text">
+        <p>Quis aliqua reprehenderit excepteur et dolore</p>
+      </div>
+</header>
+  {% schema %}
+    {
+        "name": "orangy-banner-time",
+        "tag": "section",
+        "class": "orangy-banner-time",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "orangy_banner_image",
+                "label": "orangy-banner-image"
+            },
+            {
+                "type":"text",
+                "label":"title",
+                "id":"title",
+                "default":"FREE SHIPPING · COUPON: FREE. Exchanges and returns within 30 days."
+            },
+            {
+                "type": "range",
+                "id": "padding_top",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_top",
+                "default": 0
+              },
+              {
+                "type": "range",
+                "id": "padding_bottom",
+                "min": 0,
+                "max": 100,
+                "step": 4,
+                "unit": "px",
+                "label": "t:sections.all.padding.padding_bottom",
+                "default": 0
+              }   
+        ],
+        "presets": [
+            {
+              "name": "Orangy Banner Time",
+            }       
+        ]    
+    }
+  {% endschema %}

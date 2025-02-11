@@ -1,0 +1,41 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.inspiration {
+  &__title {
+    @include center-flex;
+    h2 {
+      font-family: Lora;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 54px;
+      letter-spacing: 0%;
+      text-align: center;
+    }
+  }
+  &__full {
+    .inspiration__body {
+      @include center-flex;
+      .inspiration__item {
+        img {
+          object-fit: cover;
+          height: 618px;
+          width: 379px;
+          margin: 16px;
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+  &__text {
+    @include center-flex;
+    p {
+      font-family: Lato;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      width: 810px;
+    }
+  }
+}

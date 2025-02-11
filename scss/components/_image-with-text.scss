@@ -1,0 +1,27 @@
+@import "../base/mixins";
+@import "../base/variables";
+
+.image-with-text-wrap {
+  margin: 0 36px;
+  .image-wrapper {
+    border-radius: 24px;
+  }
+}
+.image-wrapper-text {
+  background-color: #f4f0ea;
+  border-radius: 24px;
+  .text-title {
+    font-family: Lora;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0%;
+  }
+  .text-content p {
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+  }
+}
