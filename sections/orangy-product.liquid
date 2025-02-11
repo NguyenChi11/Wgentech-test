@@ -1,0 +1,62 @@
+{{ 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' | stylesheet_tag }}
+{{ 'style.css' | asset_url | stylesheet_tag }}
+
+
+<div class="orangy-production">
+    <div class="orangy-production-left">
+        <div class="product-image">
+            {{ section.settings.orangy_product_image | image_url: width : 700,height: 800|image_tag }}
+          </div>
+    </div>
+    <div class="orangy-production-right">
+        <div class="product-list">
+            {% for product in collections[section.settings.collection].products  %}
+            <div class="production-card">
+                <img class="product__image" src="{{ product.featured_media|image_url: height:339  }}">
+                <div class="list-icon">
+                       <div class="product-labels">
+                        <span class="label-new">New</span>
+                        <span class="label-sale">Sale</span>
+                      </div>
+                      <div class="list-icon-right">
+                        <i class="fa-regular fa-heart"></i>
+                      </div>
+                </div>
+                <div class="color-options">
+                      <span class="color" style="background-color: #a38960"></span>
+                      <span class="color" style="background-color: #cccccc"></span>
+                      <span class="color" style="background-color: #7e5b42"></span>
+                      <span class="color" style="background-color: #285e8f"></span>
+                      <span class="color">+ 4colors</span>
+                </div>
+                <div class="product-info">
+                  <p class="product-price">{{ product.price | money }}</p>
+                </div>
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+        "name": "Orangy Product",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "orangy_product_image",
+                "label": "orangy-product-image"
+            },
+            {
+                "type":"collection",
+                "id": "collection",
+                "label": "Orangy Product",
+            }
+        ],
+        "presets": [
+            {
+              "name": "Orangy product Collection"
+            }
+          ]
+    }
+{% endschema %}
