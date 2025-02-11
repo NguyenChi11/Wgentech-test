@@ -1,3 +1,14 @@
 @import "./base/mixins";
 @import "./base/variables";
 @import "./components/banner-time";
+@import "./components/banner-title";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+}
