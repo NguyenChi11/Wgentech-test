@@ -46,10 +46,88 @@
         "padding_top": 28,
         "padding_bottom": 24
       }
+    },
+    "orangy_multirow_6EKERF": {
+      "type": "orangy-multirow",
+      "blocks": {
+        "heading_bTj3yQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum",
+            "heading_size": "h1"
+          }
+        },
+        "text_U6BRY8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Excepteur eiusmod consectetur<br/>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.<br/>Quis aliqua reprehenderit<br/>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.<br/>Ad sit cillum amet duis quis commodo<br/>Proident dolore nisi eiusmod excepteur aliquip esse ut excepteur. Non excepteur sunt reprehenderit sit ex ullamco eiusmod Lorem incididunt nisi mollit nostrud. Irure velit enim elit minim commodo qui culpa cillum duis fugiat consequat pariatur.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bTj3yQ",
+        "text_U6BRY8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/anh2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "bottom",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "orangy_multirow_YVH4MU": {
+      "type": "orangy-multirow",
+      "blocks": {
+        "heading_8mDpqA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mollit aliquip do ipsum consectetur",
+            "heading_size": "h1"
+          }
+        },
+        "text_RjYBb7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor cupidatat. Ullamco dolore irure ea sit elit velit non officia. Ad eu reprehenderit in et voluptate mollit. Reprehenderit incididunt magna consequat enim sit eiusmod est dolor laborum cupidatat.Ipsum minim mollit irure dolore. Sint fugiat deserunt dolor aute enim et cillum adipisicing cillum nostrud anim. Sit dolore incididunt dolore do sunt pariatur consectetur id qui pariatur eu incididunt adipisicing. Irure sint fugiat officia veniam consectetur. Esse laborum amet aliqua ad in sunt labore duis.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8mDpqA",
+        "text_RjYBb7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/anh4.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "featured_collection",
-    "orangy_banner_title_L7b8tB"
+    "orangy_banner_title_L7b8tB",
+    "orangy_multirow_6EKERF",
+    "orangy_multirow_YVH4MU"
   ]
 }
