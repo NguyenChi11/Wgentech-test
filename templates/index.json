@@ -52,11 +52,18 @@
           "settings": {
             "orangy_inspiration_image": "shopify://shop_images/anh2.png"
           }
+        },
+        "text_inspiration_qXQiUk": {
+          "type": "text_inspiration",
+          "settings": {
+            "orangy_inspiration_image": "shopify://shop_images/anh6.png"
+          }
         }
       },
       "block_order": [
         "text_inspiration_dKmrVC",
-        "text_inspiration_QBDWUY"
+        "text_inspiration_QBDWUY",
+        "text_inspiration_qXQiUk"
       ],
       "settings": {
         "title": "Lorem ullamco đsd",
